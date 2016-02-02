@@ -1,4 +1,4 @@
-var Repo = require('./taskRepository.js');
+var Repo = require('./taskRepository.js')();
 
 var Task = function(data) {
     this.name = data.name;
@@ -10,7 +10,7 @@ Task.prototype.complete = function() {
     this.completed = true;
 };
 
-Task.prototype.save = function() {
+Task.prototype.saveTask = function() {
     console.log('saving Task: ' + this.name);
     Repo.save(this);
 };
