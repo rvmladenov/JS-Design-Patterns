@@ -1,0 +1,1 @@
+Conserves memory by sharing portions of an object between objects(has difference in case you are using a lot of objects)
