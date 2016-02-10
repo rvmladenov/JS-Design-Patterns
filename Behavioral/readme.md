@@ -1,0 +1,1 @@
+Concerned with the assignment of responsibilities between objects and how they comunicate.
