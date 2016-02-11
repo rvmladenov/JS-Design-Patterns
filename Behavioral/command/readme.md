@@ -1,0 +1,1 @@
+Excapsulates the calling of a method as an object
